@@ -1,0 +1,59 @@
+body,html {
+		background-color: black;
+		color: red;
+		font-family: Helvetica, Arial, sans;
+		text-align: center;
+}
+
+h1 {
+	color: #BD0127;
+}
+
+img {
+		display: block;
+		border: 1px solid #BD0127;
+		width: 80%;
+		border-radius: 5px;
+		margin: 20px auto 20px auto;
+}
+
+.status {
+	max-width: 350px;
+	margin: 0 auto 0 auto;
+}
+
+.solution {
+	max-width: 350px;
+	margin: 0 auto 0 auto;
+}
+
+dl {
+	display: inline-block;
+	width: 25%;
+	border: 1px solid #BD0127;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.solution dl {
+	width: 85%;
+}
+
+dt, dd {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+dt {
+	background-color: #750118;
+
+}
+
+dd {
+	margin-inline-start: 0px;
+	font-weight: bold;
+}
+
