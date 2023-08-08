@@ -124,8 +124,8 @@ def solve_images():
 		capture_image(camera, filename)
 
 
-		command = "/usr/bin/solve-field --no-remove-lines --uniformize 0 --scale-low 1.83 --scale-high 3.24 --overwrite --downsample 6 -p -S none -N none --cpulimit 10 /tmp/img.tiff"
-		# command = "/usr/bin/solve-field --no-remove-lines --uniformize 0 --scale-low " + str(scale_low) + " --scale-high " + str(scale_high) + " --overwrite --downsample " + str(downsample) + " -p -S none -N none --cpulimit 10 " + filename
+		# command = "/usr/bin/solve-field --no-remove-lines --uniformize 0 --scale-low 1.83 --scale-high 3.24 --overwrite --downsample 6 -p -S none -N none --cpulimit 10 /tmp/img.tiff"
+		command = "/usr/bin/solve-field --no-remove-lines --uniformize 0 --scale-low " + str(scale_low) + " --scale-high " + str(scale_high) + " --overwrite --downsample " + str(downsample) + " -p -S none -N none --cpulimit 10 " + filename
 		# print(command)
 
 		if solving:
